@@ -4,17 +4,18 @@
   <title>My Music Encoding</title>
   <script src="https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js" defer></script>
   <script>
+    // The following code loads the "music.mei" file and inserts it into the "music-notation" div.
     document.addEventListener("DOMContentLoaded", (event) => {
       verovio.module.onRuntimeInitialized = async _ => {
         let tk = new verovio.toolkit();
-          console.log("Verovio successully loaded.");
-          fetch("music.mei")
-          .then( (response) => response.text() )
-          .then( (meiXML) => {
-            let svg = tk.renderData(meiXML, {});
-            document.getElementById("music-notation").innerHTML = svg;
-          } )
-}
+        console.log("Verovio successully loaded.");
+        fetch("music.mei")
+        .then((response) => response.text())
+        .then((meiXML) => {
+          let svg = tk.renderData(meiXML, {});
+          document.getElementById("music-notation").innerHTML = svg;
+        });
+      }
     });
   </script>
   <body>
