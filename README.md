@@ -36,7 +36,7 @@ python3 -m http.server
 
 **Task:**
 
-1. Take a short music example (max. 2 staves) and try to communicate it to your peers only using an Excel sheet.
+1. Take a short music example (e.g. from [Bartók's _Mikrokosmos_, Vol. 1](https://imslp.eu/files/imglnks/euimg/2/21/IMSLP465640-PMLP3661-Bela_Bartok_-_Mikrokosmos.pdf); max. 2 staves) and try to communicate it to your peers only using an Excel sheet.
 2. Give your sheet to a peer who then tries to write the music back into a notation software like MuseScore Studio. 
 3. Reveal the original notation to your peer.
 4. Discuss!
