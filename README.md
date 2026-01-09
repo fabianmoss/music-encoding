@@ -40,3 +40,13 @@ python3 -m http.server
 2. Give your sheet to a peer who then tries to write the music back into a notation software like MuseScore Studio. 
 3. Reveal the original notation to your peer.
 4. Discuss!
+
+### Session 2
+
+- What is (the) MEI?
+- MEI Guidelines Principles
+- Preview of rendering MEI-encoded music example with Verovio (see How-To's above).
+
+**Task:**
+
+1. Read and work through Chapters 1.2 and 1.3 of the MEI Guidelines.
