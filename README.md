@@ -50,3 +50,7 @@ python3 -m http.server
 **Task:**
 
 1. Read and work through Chapters 1.2 and 1.3 of the MEI Guidelines.
+2. Understand the 4 music domains (logical, gestural, visual, analytical)
+3. Understand the difference between _Events_ and _ControlEvents_
+4. Understand how timestamps work. 
+
