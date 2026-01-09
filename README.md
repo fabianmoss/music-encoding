@@ -25,3 +25,18 @@ Serve with
 ```python
 python3 -m http.server
 ```
+
+
+## Outline 
+
+### Session 1
+
+- What is music encoding? What is it good for? 
+- Why do we need standards?
+
+**Task:**
+
+1. Take a short music example (max. 2 staves) and try to communicate it to your peers only using an Excel sheet.
+2. Give your sheet to a peer who then tries to write the music back into a notation software like MuseScore Studio. 
+3. Reveal the original notation to your peer.
+4. Discuss!
