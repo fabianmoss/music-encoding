@@ -64,10 +64,10 @@ python3 -m http.server
 
 1. Develop you own XML-based music encoding scheme for a simple melody (e.g., "Ode to Joy").
 2. Work through Beginners MEI tutorials: https://music-encoding.org/resources/tutorials.html
-  - Quickstart
-  - XML Basics and minimal MEI structure 
-  - Rests
-  - Chords
+    - Quickstart
+    - XML Basics and minimal MEI structure 
+    - Rests
+    - Chords
 
 ### Session 4 
 
