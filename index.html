@@ -9,7 +9,9 @@
       verovio.module.onRuntimeInitialized = async _ => {
         let tk = new verovio.toolkit();
         console.log("Verovio successully loaded.");
-        fetch("music.mei")
+        fetch("examples/minimal_music.mei")
+        // fetch("minimal_music_laura.mei")
+        // fetch("minimal_music.mei")
         .then((response) => response.text())
         .then((meiXML) => {
           let svg = tk.renderData(meiXML, {});

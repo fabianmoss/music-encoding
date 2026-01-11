@@ -29,7 +29,9 @@ python3 -m http.server
 
 ## Outline 
 
-### Session 1
+### Friday, January 9
+
+#### Session 1
 
 - What is music encoding? What is it good for? 
 - Why do we need standards?
@@ -41,7 +43,7 @@ python3 -m http.server
 3. Reveal the original notation to your peer.
 4. Discuss!
 
-### Session 2
+#### Session 2
 
 - What is (the) MEI?
 - MEI Guidelines Principles
@@ -54,10 +56,12 @@ python3 -m http.server
 3. Understand the difference between _Events_ and _ControlEvents_
 4. Understand how timestamps work. 
 
-### Session 3
+### Saturday, January 10
+
+#### Session 3
 
 - What is XML? 
-- Basic XML structure
+- Basic XML structure ([W3Schools tutorial](https://www.w3schools.com/xml/default.asp))
 - Elements and attributes
 
 **Tasks:**
@@ -69,24 +73,26 @@ python3 -m http.server
     - Rests
     - Chords
 
-### Session 4 
+#### Session 4 
 
 - The overall structure of an MEI document 
 - editing XML/MEI in VS Code 
 
 **Tasks:**
 
-1. Read Guidelines chapter 2.1
+1. Read Guidelines chapter 2.1 and 2.2
+2. Encode a full example using only VS Code.
 
-### Session 5
+#### Session 5
 
 - General music elements 
 
 **Tasks:**
 
 1. Read Guidelines chapter 2.2 
+2. Encode final barline, fingerings, slurs and unusual accidentals.
 
-### Session 6
+#### Session 6
 
 - Common Attributes 
   
@@ -94,4 +100,34 @@ python3 -m http.server
 
 1. Read Guidelines chapter 2.3
 
+### Friday, January, 16
 
+#### Session 7 
+
+- Rendering a MEI encoding using Verovio and displaying it on a website.
+
+**Tasks:**
+
+1. Understand the minimal structure of a HTML document.
+2. Follow the instructions on https://verovio.org on how to call the library and display a music example. 
+
+#### Session 8 
+
+- Metadata in MEI.
+
+**Tasks:**
+
+1. Read Chapter 3.1--3.4 in MEI Guidelines.
+2. Understand the structure of the MEI Header (besides the minimal requirements).
+
+### Saturday, January 17
+
+#### Session 9
+
+#### Session 10
+
+#### Session 11
+
+#### Session 12
+
+- Wrap-up, summary, discussion, and feedback
