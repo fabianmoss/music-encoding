@@ -96,7 +96,7 @@ python3 -m http.server
 #### Session 6
 
 - Common Attributes 
-  
+
 **Tasks:**
 
 1. Read Guidelines chapter 2.3
@@ -117,8 +117,9 @@ python3 -m http.server
 
 **Tasks:**
 
-1. Read Chapter 3.1--3.4 in MEI Guidelines.
+1. Read Chapter 3.1--3.2 in MEI Guidelines together.
 2. Understand the structure of the MEI Header (besides the minimal requirements).
+3. Read 3.3--3.4 individually and add the respective metadata entries to your music encodings.
 
 ### Saturday, January 17
 
