@@ -1,12 +1,13 @@
 # music-encoding
 
-Some material for teaching music encoding with MEI.
+Material for teaching music encoding with MEI.
 
 ## Links
 
 - [MEI Guidelines (v5.1)](https://music-encoding.org/guidelines/v5/MEI_Guidelines_v5.1.pdf)
 - [Verovio](https://book.verovio.org/first-steps/getting-started.html)
 - [MEI friend](https://mei-friend.github.io//docs/)
+- [MuseScore Studio](https://musescore.org) (MEI export!)
 
 ## How-To's 
 
@@ -90,7 +91,7 @@ python3 -m http.server
 **Tasks:**
 
 1. Read Guidelines chapter 2.2 
-2. Encode final barline, fingerings, slurs and unusual accidentals.
+2. Encode final bar line, fingerings, slurs and unusual accidentals.
 
 #### Session 6
 
@@ -104,12 +105,11 @@ python3 -m http.server
 
 #### Session 7 
 
-- Rendering a MEI encoding using Verovio and displaying it on a website.
+- MEI friend for the last mile.
 
 **Tasks:**
 
-1. Understand the minimal structure of a HTML document.
-2. Follow the instructions on https://verovio.org on how to call the library and display a music example. 
+1. Read the MEI-friend documentation "Basic Topics: Getting Started" to "Editing".
 
 #### Session 8 
 
@@ -124,10 +124,17 @@ python3 -m http.server
 
 #### Session 9
 
+- Rendering a MEI encoding using Verovio and displaying it on a website.
+
+**Tasks:**
+
+1. Understand the minimal structure of a HTML document.
+2. Follow the instructions on https://verovio.org on how to call the library and display a music example. 
+
 #### Session 10
 
 #### Session 11
 
 #### Session 12
 
-- Wrap-up, summary, discussion, and feedback
+- Wrap-up, summary, discussion, and feedback (+evaluation forms)
