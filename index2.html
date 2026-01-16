@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <title>My Music Encoding</title>
+  <script src="https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js" defer></script>
+  <script>
+    // The following code loads the "music.mei" file and inserts it into the "music-notation" div.
+    document.addEventListener("DOMContentLoaded", (event) => {
+      verovio.module.onRuntimeInitialized = async _ => {
+        let tk = new verovio.toolkit();
+        console.log("Verovio successully loaded.");
+        fetch("examples/minimal_music.mei")
+        // fetch("minimal_music_laura.mei")
+        // fetch("minimal_music.mei")
+        .then((response) => response.text())
+        .then((meiXML) => {
+          let svg = tk.renderData(meiXML, {});
+          document.getElementById("music-notation").innerHTML = svg;
+        });
+      }
+    });
+  </script>
+  <body>
+    <h1>My music example</h1>
+    <div id="music-notation">
+    </div>
+  </body>
+</html>
