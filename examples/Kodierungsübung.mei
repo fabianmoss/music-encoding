@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://music-encoding.org/schema/5.1.0/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xml:id="mvoqefn1" meiversion="5.1.0" xmlns="http://www.music-encoding.org/ns/mei">
+   <meiHead xml:id="msakdcp1">
+      <fileDesc xml:id="fkc3nhg">
+         <titleStmt xml:id="t1vko84">
+            <title xml:id="tr40j731">Trist und Sold</title>
+            <title type="subtitle">für Klavier Solo</title>
+            <title type="subtitle">und mehr</title>
+            <arranger>Mustermann</arranger>
+            <author>...</author>
+            <composer>Richard Wegner</composer>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name>Jason...</name>
+            </respStmt>
+         </titleStmt>
+         <pubStmt xml:id="pkmulgq2">
+            <publisher>Seminar Uni Wü</publisher>
+            <address>
+               <addrLine>Domerschulstraße 13</addrLine>
+               <addrLine>97086
+                  <geogName>Würzburg</geogName>
+               </addrLine>
+               <addrLine>
+                  <geogName>Deutschland</geogName>
+               </addrLine>
+            </address>
+            <date>2026</date>
+         </pubStmt>
+         <seriesStmt>
+            <title>Unbekannt</title>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="e1w64ay1">
+         <appInfo xml:id="a0hr6mz2">
+            <application xml:id="autyp8t2" startdate="2026-01-16T15:04:36" version="1.2.9" enddate="2026-01-16T15:04:36">
+               <name xml:id="njvbha51">mei-friend</name>
+               <p xml:id="pydhvgf1">First edit by mei-friend 1.2.9.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+  <music xml:id="mfo24ca">
+    <body xml:id="bybddxk1">
+      <mdiv xml:id="mpja7xr1">
+        <score xml:id="slzbn2k1">
+          <scoreDef xml:id="sdfjcrq1" meter.count="4" meter.unit="4">
+            <staffGrp xml:id="s1fp1of">
+              <staffDef xml:id="sdli08j2" clef.line="2" clef.shape="G" lines="5" n="1"/>
+              <staffDef xml:id="skojaes1" clef.line="4" clef.shape="F" lines="5" n="2"/>
+              <!-- Next element encodes the brace for piano notation -->
+              <grpSym xml:id="g828kl3" symbol="brace"/>
+            </staffGrp>
+          </scoreDef>
+          <section xml:id="part1">
+            <measure xml:id="mnf34gx2" n="1">
+                <staff xml:id="s0v2mhu2" n="1">
+                  <layer xml:id="lp3p2kn2" n="1">
+                    <note xml:id="n00001" dots="1" dur="2" oct="4" pname="b"/>
+                    <note xml:id="nnfpnip1" dur="4" oct="4" pname="a"/>
+                  </layer>
+                </staff>
+                <staff xml:id="svgxer81" n="2">
+                  <layer xml:id="l0fac9m2" n="1">
+                    <note xml:id="n00002" dots="1" dur="2" oct="3" pname="b"/>
+                    <note xml:id="n2bf794" dur="4" oct="3" pname="a"/>
+                  </layer>
+                </staff>
+            </measure>
+            <measure xml:id="m46c9t81" n="2">
+              <staff xml:id="sdxnv7c1" n="1">
+                <layer xml:id="lowy6101">
+                  <note xml:id="nzu8xb3" dots="1" dur="2" oct="4" pname="g"/>
+                  <note xml:id="n01aa8u1" dur="4" oct="4" pname="a"/>
+                </layer>
+              </staff>
+              <staff xml:id="slzog9o1" n="2">
+                <layer xml:id="l7z2h331">
+                  <note xml:id="n9kgpo9" dots="1" dur="2" oct="3" pname="g"/>
+                  <note xml:id="ny3im2d1" dur="4" oct="3" pname="a"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure xml:id="m0s0ysc1" n="3">
+              <staff xml:id="s8t3buh1" n="1">
+                <layer xml:id="lg2esjs2">
+                  <note xml:id="n7u3gbq2" dur="2" oct="4" pname="g"/>
+                  <note xml:id="n4bzpjq2" dur="2" oct="4" pname="f"/>
+                </layer>
+              </staff>
+              <staff xml:id="suvtt54" n="2">
+                <layer xml:id="l159fq41">
+                  <note xml:id="n3t0q0v2" dur="2" oct="3" pname="g"/>
+                  <note xml:id="n1sq3tt1" dur="2" oct="3" pname="f"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure xml:id="mrrtgte1" n="4">
+              <staff xml:id="swoomzl1" n="1">
+                <layer xml:id="lni454s2">
+                  <note xml:id="n00003" dur="2" oct="4" pname="e"/>
+                  <rest xml:id="rnl8vqo1" dur="2"/> 
+                </layer>
+              </staff>
+              <staff xml:id="skibb5r2" n="2">
+                <layer xml:id="l7lf6v2">
+                  <note xml:id="n00004" dur="2" oct="3" pname="e"/>
+                  <rest xml:id="rl2phk7" dur="2"/> 
+                </layer>
+              </staff>
+            </measure>
+            <measure xml:id="mv8usn9" n="5">
+                  <staff xml:id="scauhmr2" n="1">
+                    <layer xml:id="l8m8w881">
+                      <note xml:id="n00005" dur="4" oct="4" pname="b"/>
+                      <note xml:id="nkrqynn1" dur="4" oct="4" pname="a"/>
+                      <note xml:id="npq20h21" dur="4" oct="4" pname="g"/>
+                      <note xml:id="nm2yt0s2" dur="4" oct="4" pname="a"/>
+                    </layer>
+                  </staff>
+                  <staff xml:id="swo57qi2" n="2">
+                    <layer xml:id="lghtmle">
+                      <note xml:id="n00006" dur="4" oct="3" pname="b"/>
+                      <note xml:id="nyfk2581" dur="4" oct="3" pname="a"/>
+                      <note xml:id="nskz99b" dur="4" oct="3" pname="g"/>
+                      <note xml:id="noqbw3j2" dur="4" oct="3" pname="a"/>
+                    </layer>
+                  </staff>
+              </measure>
+              <measure xml:id="mczb3921">
+                <staff xml:id="se7zt5q2" n="1">
+                  <layer xml:id="lctjtwu1">
+                    <note xml:id="nb5aikb1" dur="2" oct="4" pname="g"/>
+                    <note xml:id="nokv4ho2" dur="2" oct="4" pname="f"/>
+                  </layer>
+                </staff>
+                <staff xml:id="sfjet601" n="2">
+                  <layer xml:id="lj9bd0p2">
+                    <note xml:id="nd7plmd1" dur="2" oct="3" pname="g"/>
+                    <note xml:id="nd6qglq2" dur="2" oct="3" pname="f"/>
+                  </layer>
+                </staff>
+              </measure>
+              <measure xml:id="mvfhpb8">
+                <staff xml:id="s5jzxrp2" n="1">
+                  <layer xml:id="loyz8nn1">
+                    <note xml:id="n00007" dur="2" oct="4" pname="e"/>
+                    <rest xml:id="rbyxwgk2" dur="2"/>
+                  </layer>
+                </staff>
+               <staff xml:id="szwperf1" n="2">
+                  <layer xml:id="lts95xe1">
+                    <note xml:id="n00008" dur="2" oct="3" pname="e"/>
+                    <rest xml:id="r2tq6a71" dur="2"/>
+                  </layer>
+                </staff>
+              <slur xml:id="s7syk0g1" curvedir="above" startid="#n00001" endid="n00003" staff="1"/>
+				  <slur xml:id="sjeqwk5" curvedir="above" endid="n00004" staff="2" startid="#n00002"/>
+              <slur xml:id="sos9n45" curvedir="above" endid="n00007" staff="1" startid="#n00005"/>
+              <slur xml:id="svz6jpy2" curvedir="above" endid="n00008" staff="2" startid="#n00006"/>
+             </measure>
+          </section>
+          <section xml:id="part2">
+             <measure>
+                <staff n ="1">
+                   <layer>
+                      <note pname="g" oct="4" dur="2"></note>
+                   </layer>
+                </staff>
+                <staff n ="2">
+                </staff>
+             </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
