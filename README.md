@@ -149,3 +149,9 @@ python3 -m http.server
 #### Session 12
 
 - Wrap-up, summary, discussion, and feedback (+evaluation forms)
+
+## Feedback 
+
+- Code rendering was very helpful. Maybe MEI friend earlier?
+- Information density very high. Guidelines hard to read.
+- Block format with a bit more distance, with homework and time to reflect 

@@ -57,7 +57,11 @@ button {
     margin: 2rem auto;
     text-align: center;
 }
-
+#incipit,
+#notation {
+    display: flex;
+    justify-content: center;
+}
 /* Make SVG responsive */
 #notation svg {
     max-width: 100%;

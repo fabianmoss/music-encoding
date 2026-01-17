@@ -2,10 +2,17 @@
    <meiHead xml:id="m11r3hl2">
       <fileDesc xml:id="f18cvp51">
          <titleStmt xml:id="tw55g8i2">
-            <title xml:id="tovpojt2">Repetition (1)</title>
+            <title type="maintitle" xml:id="tovpojt2">Mikrokosmos I</title>
+            <title type="subtitle">Repetition (1)</title>
+        <respStmt>
+          <persName role="composer">Béla Bartók</persName>
+        </respStmt>
          </titleStmt>
          <pubStmt xml:id="prk47d2">
-            <unpub xml:id="unajvmd"/>
+       <respStmt>
+        <corpName>Institut für Musikforschung, Julius-Maximilians-Universität Würzburg</corpName>
+        <persName role="encoder">Fabian C. Moss</persName>
+      </respStmt>
          </pubStmt>
       </fileDesc>
       <encodingDesc xml:id="ehwqad61">
@@ -15,14 +22,69 @@
                <p xml:id="phlysoa">First edit by mei-friend 1.2.9.</p>
             </application>
          </appInfo>
-      </encodingDesc>
+            </encodingDesc>
    </meiHead>
   <music xml:id="mmfqv87">
     <body xml:id="b84uuwm2">
+      <mdiv xml:id="finger-placement">
+        <score xml:id="s235987">
+          <scoreDef>
+            <staffGrp>
+              <staffDef clef.line="2" clef.shape="G" lines="5" n="1a" />
+              <staffDef clef.line="4" clef.shape="F" lines="5" n="2a" />
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <measure left="invis" right="dbl">
+              <staff n="1a">
+                <layer n="1">
+                  <note pname="e" oct="4" dur="4"/>
+                  <note pname="f" accid="s" oct="4" dur="4"/>
+                  <note pname="g" oct="4" dur="4"/>
+                  <note pname="a" oct="4" dur="4"/>
+                  <note pname="b" oct="4" dur="4"/>
+                </layer>
+              </staff>
+              <staff n="2a">
+                <layer n="2">
+                  <note pname="e" oct="3" dur="4"/>
+                  <note pname="f" accid="s" oct="3" dur="4"/>
+                  <note pname="g" oct="3" dur="4"/>
+                  <note pname="a" oct="3" dur="4"/>
+                  <note pname="b" oct="3" dur="4"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure right="dbl">
+              <staff n="1a">
+                <layer>
+                  <note pname="a" oct="4" dur="4"/>
+                  <note pname="g" oct="4" dur="4"/>
+                  <note pname="f" accid="s" oct="4" dur="4"/>
+                  <note pname="e" oct="4" dur="4"/>
+                  <note pname="d" oct="4" dur="4"/>
+                  <note pname="e" oct="4" dur="1"/>
+                </layer>
+              </staff>
+              <staff n="2a">
+                <layer>
+                  <note pname="a" oct="3" dur="4"/>
+                  <note pname="g" oct="3" dur="4"/>
+                  <note pname="f" accid="s" oct="3" dur="4"/>
+                  <note pname="e" oct="3" dur="4"/>
+                  <note pname="d" oct="3" dur="4"/>
+                  <note pname="e" oct="3" dur="1"/>
+                </layer>
+              </staff>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
       <mdiv xml:id="mjyxwuy1">
         <score xml:id="s8lavp41">
           <scoreDef xml:id="svr0osg" meter.count="4" meter.unit="4">
-            <staffGrp xml:id="sv0avwo2">
+            <staffGrp xml:id="sv0avwo2" symbol="brace">
+              <label>8</label>
               <staffDef xml:id="sre5l1q2" clef.line="2" clef.shape="G" lines="5" n="1">
                 <keySig xml:id="kq3580v1">
                   <keyAccid xml:id="kbth7ni2" accid="s" loc="1" pname="f"/>
@@ -33,7 +95,7 @@
                   <keyAccid xml:id="kgl9yi6" accid="s" loc="6" pname="f"/>
                 </keySig>
               </staffDef>
-              <grpSym xml:id="gfu12zk1" symbol="brace"/>
+              <!-- <grpSym xml:id="gfu12zk1" symbol="brace" label="8"/> -->
             </staffGrp>
           </scoreDef>
           <section xml:id="s0clyo6">
