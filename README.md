@@ -129,10 +129,20 @@ python3 -m http.server
 
 **Tasks:**
 
-1. Understand the minimal structure of a HTML document.
+1. Understand the minimal structure of an HTML document.
 2. Follow the instructions on https://verovio.org on how to call the library and display a music example. 
+3. Set up a simple Python web server: `python3 -m http.server`
+4. Use logging `console.log()` and set better Verovio default options: `scale: 50, footer: "none", adjustPageHeight: true`
 
 #### Session 10
+
+- Encode your own examples! 
+
+**Tasks:**
+
+1. Bring your own music example (note more than 1 page, not too many instruments)
+2. Encode your example in MEI based on what we learned so far. Consult first the guidelines, then the instructor.
+3. Create a new minimal HTML page, add Verovio to it, and display your encoded score. 
 
 #### Session 11
 
