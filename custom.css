@@ -14,6 +14,26 @@ h1, h2 {
     margin-bottom: 1rem;
 }
 
+h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
 /* Paragraph spacing */
 p {
     margin-bottom: 1.5rem;
