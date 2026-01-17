@@ -1,0 +1,50 @@
+/* Basic page layout */
+body {
+    max-width: 900px;
+    margin: 0 auto;          /* center page */
+    padding: 2rem 1.5rem;    /* left/right + top/bottom spacing */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.5;
+}
+
+/* Center headings */
+h1, h2 {
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+button {
+    margin: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
+}
+
+/* Center MIDI controls */
+#playMIDI,
+#stopMIDI {
+    display: inline-block;
+}
+
+/* Center notation SVG */
+#notation {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+/* Make SVG responsive */
+#notation svg {
+    max-width: 100%;
+    height: auto;
+}
+
+g.note.playing {
+    fill: #d33;
+    stroke: #d33;
+}
