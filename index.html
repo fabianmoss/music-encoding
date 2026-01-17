@@ -1,6 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <meta charset="UTF-8" />
-  <title></title>
-  <body></body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My first website</title>
+    <script src="https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js" defer>
+    </script>
+    <script> 
+      document.addEventListener("DOMContentLoaded", (event) => {
+        verovio.module.onRuntimeInitialized = () => {
+          let tk = new verovio.toolkit();
+          console.log("Verovio has loaded!");
+
+          fetch("examples/minimal_music.mei")
+            .then( (response) => response.text() )
+            .then( (meiXML) => {
+              let graphical_output = tk.renderData(meiXML, {});
+              document.getElementById("music").innerHTML = graphical_output;
+            });
+          tk.setOptions({
+            scale: 50,
+            font: "Leland",
+            footer: "none",
+            adjustPageHeight: true
+          });
+          // console.log("Verovio options:", tk.getOptions())
+          console.log("Verovio options:", tk.getDefaultOptions());
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+    <p>
+      Heute beginnt der letzte Tag 
+      unseres Blockseminars.
+    </p>
+    <h2>Session 1</h2>
+    <p>Wir haben uns google.com auf der Wayback Machine angeschaut.</p>
+    <h2>Musikbeispiel</h2>
+    <div id="music"></div>
+    <h2>Abschluss</h2>
+    <p>Das war's!</p>
+  </body>
 </html>
