@@ -198,7 +198,7 @@
                   <note xml:id="nhktb6j1" dur="2" oct="4" pname="f"/>
                 </layer>
               </staff>
-               <!-- <slur xml:id="seqryh7" curvedir="below" endid="n6n3jco2" layer="1" staff="1" startid="ng6d84a"/> -->
+               <slur xml:id="seqryh7" curvedir="below" endid="n6n3jco2" layer="1" staff="1" startid="ng6d84a"/>
               <staff xml:id="s940tfz1" n="2">
                 <layer xml:id="l6unbcb" n="1">
                   <note xml:id="nntcmbg1" dur="2" oct="3" pname="f"/>
